@@ -19,14 +19,17 @@ header {
     background-color: rgba(0, 0, 0, 0.5); /* Translucent black background */
     padding: 10px 0;
     z-index: 1000;
+    display: flex; /* Added to allow flex layout */
+    justify-content: center; /* Center the navigation links */
 }
 
 nav ul {
-    display: flex;
-    justify-content: center; /* Center the nav items */
+    display: flex; /* Horizontal display of list items */
+    justify-content: center;
     margin: 0;
     padding: 0;
     list-style-type: none;
+    width: 100%; /* Ensure it spans across the whole width */
 }
 
 nav ul li {
@@ -79,5 +82,4 @@ footer a {
 
 footer p {
     margin: 5px 0;
-}
 }
