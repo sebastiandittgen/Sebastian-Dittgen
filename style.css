@@ -4,7 +4,7 @@ body {
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
     color: #fff;
-    background: url('me.jpg') no-repeat center center fixed; /* Background image */
+    background: url('me.jpeg') no-repeat center center fixed; /* Background image */
     background-size: cover; /* Full screen background image */
     height: 100vh;
     line-height: 1.6;
