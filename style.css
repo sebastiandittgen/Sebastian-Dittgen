@@ -1,6 +1,4 @@
 /* Global styles */
-
-
 .josefin-sans-<uniquifier> {
   font-family: "Josefin Sans", serif;
   font-optical-sizing: auto;
@@ -26,23 +24,21 @@ header {
     left: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Translucent black background */
-    padding: 10px 0;
+    padding: 10px 20px; /* Add horizontal padding */
     z-index: 1000;
-    display: flex; /* Added to allow flex layout */
-    justify-content: center; /* Center the navigation links */
 }
 
 nav ul {
-    display: flex; /* Horizontal display of list items */
-    justify-content: center;
+    display: flex; /* Horizontal layout for navigation links */
+    justify-content: flex-start; /* Align links to the left */
     margin: 0;
     padding: 0;
     list-style-type: none;
-    width: 100%; /* Ensure it spans across the whole width */
+    gap: 20px; /* Space between the links */
 }
 
 nav ul li {
-    margin: 0 20px; /* Space between items */
+    margin: 0;
 }
 
 nav ul li a {
@@ -59,16 +55,19 @@ nav ul li a:hover {
 /* Main body content */
 main {
     display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Left-align content */
     justify-content: center;
-    align-items: center;
+    padding: 100px 20px 0 20px; /* Add padding to adjust spacing */
     height: calc(100vh - 80px); /* Subtract header height */
-    text-align: center;
+    text-align: left; /* Left-align text */
 }
 
 h1 {
     font-size: 4rem;
     color: #fff;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6); /* Add shadow for better text visibility */
+    margin-bottom: 20px;
 }
 
 /* Footer */
