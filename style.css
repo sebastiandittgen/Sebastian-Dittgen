@@ -23,18 +23,6 @@ body.about {
     background-size: cover;
 }
 
-/* Gold styling for active page (About Me) */
-body.about nav ul li .active-page {
-    color: gold; /* Gold text for "About Me" */
-    font-weight: bold;
-}
-
-/* Default white styling for links */
-nav ul li a {
-    color: white; /* Links remain white */
-    text-decoration: none;
-}
-
 /* Hover effect for links */
 nav ul li a:hover {
     text-decoration: underline;
@@ -75,6 +63,11 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+/* Gold styling for active page (About Me) */
+body.about nav ul li .active-page {
+    color: gold; /* Gold text for "About Me" */
+    font-weight: bold;
+}
 /* Main body content */
 main {
     display: flex;
