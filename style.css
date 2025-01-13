@@ -4,7 +4,7 @@ body {
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
     color: #fff;
-    background: url('me.jpg') no-repeat center center fixed;
+    background: url('me.jpg') no-repeat center center fixed; /* Background image */
     background-size: cover; /* Full screen background image */
     height: 100vh;
     line-height: 1.6;
@@ -17,20 +17,20 @@ header {
     left: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Translucent black background */
-    padding: 15px 0;
+    padding: 10px 0;
     z-index: 1000;
 }
 
 nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Center the nav items */
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
 nav ul li {
-    margin: 0 20px;
+    margin: 0 20px; /* Space between items */
 }
 
 nav ul li a {
@@ -79,4 +79,5 @@ footer a {
 
 footer p {
     margin: 5px 0;
+}
 }
