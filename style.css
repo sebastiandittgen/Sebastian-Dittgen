@@ -1,9 +1,57 @@
+/* Global Styles */
 body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    color: #333;
+    font-family: 'Josefin Sans', sans-serif; /* Set the main font */
+    background-color: #f5f5dc; /* Light beige background */
+    color: #333; /* Default text color */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
+/* Main Title */
 h1 {
-    color: #007BFF;
+    text-align: center;
+    color: #2d4a2f; /* Dark pine green */
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+/* Subtitle and Body Text */
+h2 {
+    color: #2d4a2f; /* Dark pine green */
+    font-size: 2rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+    padding: 0 20px;
+}
+
+/* Profile Photo */
+.profile-photo {
+    display: block;
+    margin: 20px auto;
+    max-width: 150px; /* Adjust size */
+    border-radius: 50%; /* Make it round */
+}
+
+/* Footer (Contact Info) */
+footer {
+    background-color: #2d4a2f; /* Dark pine green background for the footer */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
 }
