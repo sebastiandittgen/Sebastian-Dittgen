@@ -53,7 +53,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: gold;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
@@ -63,9 +63,9 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Gold styling for active page (About Me) */
-body.about nav ul li .active-page {
-    color: gold; /* Gold text for "About Me" */
+/* White styling for inactive page (About Me) */
+body.about nav ul li .inactive-page {
+    color: white; /* White text for "About Me" */
     font-size: 1.2rem;
     font-weight: bold;
 }
