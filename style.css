@@ -57,8 +57,8 @@ main {
     display: flex;
     flex-direction: column; /* Stack items vertically */
     align-items: flex-start; /* Left-align content */
-    justify-content: flex-start; /* Align content to the top third */
-    padding: 150px 20px 0 20px; /* Adjust padding for spacing */
+    justify-content: flex-start; /* Align content to the top */
+    padding: 20vh 20px 0 20px; /* Adjust vertical padding for the upper-third position */
     height: calc(100vh - 80px); /* Subtract header height */
     text-align: left; /* Left-align text */
 }
