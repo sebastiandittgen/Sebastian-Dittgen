@@ -66,6 +66,7 @@ nav ul li a:hover {
 /* Gold styling for active page (About Me) */
 body.about nav ul li .active-page {
     color: gold; /* Gold text for "About Me" */
+    font-size: 1.2rem;
     font-weight: bold;
 }
 /* Main body content */
