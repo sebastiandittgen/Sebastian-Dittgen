@@ -22,7 +22,11 @@ body.about {
     background: url('CEF180AE-D8E7-4C8A-B0EA-FC6D50A06F73_1_105_c.jpeg') no-repeat center center fixed;
     background-size: cover;
 }
-
+/* My Works page specific styles */
+body.works {
+  background: url('CEF180AE-D8E7-4C8A-B0EA-FC6D50A06F73_1_105_c.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
 /* Hover effect for links */
 nav ul li a:hover {
     text-decoration: underline;
@@ -66,6 +70,12 @@ nav ul li a:hover {
 /* White styling for inactive page (About Me) */
 body.about nav ul li .inactive-page {
     color: white; /* White text for "About Me" */
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+/* White styling for inactive page (My Works) */
+body.works nav ul li .inactive-page {
+    color: white; /* White text for "My Works" */
     font-size: 1.2rem;
     font-weight: bold;
 }
