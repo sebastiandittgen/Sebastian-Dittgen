@@ -22,11 +22,6 @@ body.about {
     background: url('CEF180AE-D8E7-4C8A-B0EA-FC6D50A06F73_1_105_c.jpeg') no-repeat center center fixed;
     background-size: cover;
 }
-/* My Works page specific styles */
-body.works {
-  background: url('CEF180AE-D8E7-4C8A-B0EA-FC6D50A06F73_1_105_c.jpeg') no-repeat center center fixed;
-    background-size: cover;
-}
 
 /* --- Global White Background for My Works Page --- */
 body.works {
