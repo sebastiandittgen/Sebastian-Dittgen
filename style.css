@@ -113,7 +113,10 @@ body.works h1 {
     color: black; /* Ensure the title is black */
     text-align: left;
     font-size: 2.5rem;
-    margin: 20px 0;
+    padding: 10px 0; /* Adjust vertical padding inside the background */
+    margin: 20px auto; /* Adjust margins to center and control spacing */
+    margin-top: -20px; /* Pull the title closer to the banner */
+    width: 100%; /* Ensure the title spans the width of the container */
 }
 
 /* Banner */
