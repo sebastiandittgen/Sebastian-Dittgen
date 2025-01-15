@@ -25,8 +25,9 @@ body.about {
 
 /* --- Global White Background for My Works Page --- */
 body.works {
-    background-color: white;
-    color: black;
+    background: none; /* Remove any background image */
+    background-color: white; /* Set a plain white background */
+    color: black; /* Ensure text is black for readability */
     line-height: 1.6;
 }
 
