@@ -160,6 +160,44 @@ body.works h1 {
     border-radius: 5px;
 }
 
+/* --- iTest Page Styles --- */
+body.itest {
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Image Container */
+.itest-image-container {
+    flex-grow: 1; /* Ensure the image takes up available space */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    margin: 20px; /* Add space around the image */
+}
+
+/* iTest Image */
+.itest-image {
+    max-width: 100%; /* Scale the image to fit the screen width */
+    max-height: calc(100vh - 120px); /* Subtract header and footer height */
+    object-fit: contain; /* Ensure the image fits within its container */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+/* Footer */
+footer {
+    position: relative; /* Footer stays at the bottom of the content */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: auto; /* Push footer to the bottom if there's extra space */
+}
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     /* Stack Articles and Research vertically */
@@ -191,5 +229,12 @@ body.works h1 {
 
     footer {
         padding: 10px 0;
+    }
+}
+/* Responsive Design for iTest */
+@media screen and (max-width: 768px) {
+    .itest-image {
+        max-width: 90%; /* Reduce image size for smaller screens */
+        margin: 10px auto; /* Center image with smaller margins */
     }
 }
