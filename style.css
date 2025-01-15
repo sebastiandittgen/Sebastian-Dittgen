@@ -112,14 +112,13 @@ body.works {
 body.works h1 {
     color: black; /* Ensure the title is black */
     text-align: left;
-    padding: 10px;
     font-size: 2.5rem;
     margin: 20px 0;
 }
 
 /* Banner */
 .banner {
-    background: url('IMG_6416.jpeg') no-repeat center center;
+    background: url('1A2A62C5-F3D3-4D37-A5C4-13C00731D465_1_105_c.jpeg') no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 300px;
