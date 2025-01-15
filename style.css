@@ -69,17 +69,18 @@ body.exploration nav ul li .inactive-page {
     font-size: 1.2rem;
     font-weight: bold;
 }
-
-/* Footer Styles */
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Translucent footer background */
-    color: white;
-    text-align: center;
-    padding: 15px 0;
+/* Footer styles for index and about pages */
+body.index footer,
+body.about footer {
+    position: fixed; /* Fix the footer to the bottom */
+    bottom: 0;       /* Align it to the bottom of the screen */
+    left: 0;         /* Align it to the left edge of the screen */
+    width: 100%;     /* Make it span the entire width of the page */
+    background-color: rgba(0, 0, 0, 0.5); /* Translucent background */
+    color: white;    /* White text color */
+    text-align: center; /* Center the content */
+    padding: 15px 0; /* Padding for the footer */
+    z-index: 1000;   /* Ensure it stays above other elements */
 }
 
 footer a {
@@ -241,7 +242,16 @@ body.exploration p {
         margin: 20px auto;
     }
 }
-
+footer {
+    bottom: 0;       /* Align it to the bottom of the screen */
+    left: 0;         /* Align it to the left edge of the screen */
+    width: 100%;     /* Make it span the entire width of the page */
+    background-color: rgba(0, 0, 0, 0.5); /* Translucent background */
+    color: white;    /* White text color */
+    text-align: center; /* Center the content */
+    padding: 15px 0; /* Padding for the footer */
+    z-index: 1000;   /* Ensure it stays above other elements */
+}
 @media screen and (max-width: 480px) {
     /* Reduce spacing and font sizes for small screens */
     nav ul {
