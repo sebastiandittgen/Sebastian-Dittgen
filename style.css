@@ -171,6 +171,16 @@ body.itest {
     min-height: 100vh;
 }
 
+/* iTest hyperlink styles */
+.itest-link {
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.itest-link:hover {
+    text-decoration: underline;
+}
 /* Image Container */
 .itest-image-container {
     flex-grow: 1; /* Ensure the image takes up available space */
@@ -180,11 +190,13 @@ body.itest {
     margin: 20px; /* Add space around the image */
 }
 
-/* iTest Image */
+/* iTest image */
 .itest-image {
-    max-width: 100%; /* Scale the image to fit the screen width */
-    max-height: calc(100vh - 120px); /* Subtract header and footer height */
-    object-fit: contain; /* Ensure the image fits within its container */
+    width: 100%; /* Make the image fit the screen width */
+    max-width: 1200px; /* Optional: Set a maximum width for large screens */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure consistent alignment */
     border-radius: 10px; /* Optional: Add rounded corners */
 }
 
