@@ -200,6 +200,28 @@ body.itest {
     border-radius: 10px; /* Optional: Add rounded corners */
 }
 
+/* Exploration page specific styles */
+body.exploration {
+    background: url('exploration.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+/* Styling for the Exploration title */
+body.exploration h1 {
+    font-size: 4rem;
+    margin-top: 200px; /* Adjust as needed */
+    text-align: center;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Styling for the Coming Soon text */
+body.exploration p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
 /* Footer */
 footer {
     position: relative; /* Footer stays at the bottom of the content */
