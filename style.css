@@ -27,6 +27,55 @@ body.works {
   background: url('CEF180AE-D8E7-4C8A-B0EA-FC6D50A06F73_1_105_c.jpeg') no-repeat center center fixed;
     background-size: cover;
 }
+
+/* --- Global White Background for My Works Page --- */
+body.works {
+    background-color: white;
+    color: black;
+    line-height: 1.6;
+}
+
+/* --- Main Content Layout --- */
+main {
+    padding: 20px;
+}
+
+/* --- Responsive Layout for Work Sections --- */
+.works-section {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+
+/* Text Content */
+.works-text {
+    flex: 1; /* Use half the screen on large devices */
+}
+
+.works-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.works-text p {
+    font-size: 1.2rem;
+}
+
+/* Image Content */
+.works-image {
+    flex: 1; /* Use half the screen on large devices */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.works-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
 /* Hover effect for links */
 nav ul li a:hover {
     text-decoration: underline;
@@ -172,5 +221,16 @@ footer p {
     /* Footer */
     footer {
         padding: 10px 0; /* Reduce padding for the footer */
+    }
+}
+
+/* --- Responsive Design for Smaller Screens --- */
+@media screen and (max-width: 768px) {
+    .works-section {
+        flex-direction: column; /* Stack text and image vertically */
+    }
+
+    .works-image {
+        margin-bottom: 20px; /* Add spacing between image and text */
     }
 }
