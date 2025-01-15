@@ -32,6 +32,9 @@ body.works {
     background: white;
     color: black;
 }
+body.works h1 {
+    color: black; 
+}
 
 /* Banner */
 .banner {
@@ -39,6 +42,7 @@ body.works {
     background-size: cover;
     width: 100%;
     height: 300px; /* Adjust height as needed */
+    margin-top: 60px; /* Push the banner down to account for the fixed header height */
 }
 
 /* Content container */
